@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+.entry_body {
+	float: left;
+	width: 680px;
+}
+.title {
+	margin: 16px 0 0;
+	padding-bottom: 8px;
+	color: #369;
+	font-size: 1.8rem;
+}
+.sidebar {
+	float: left;
+	width: 300px;
+	margin-top: 4px;
+	margin-bottom: 30px;
+}
+.date {
+	font-size: 1.2rem;
+	margin-left: 3px;
+}
+aside.sidebar section.newarticle h3 {
+	border-top: 1px solid #dadada;
+	border-bottom: 2px solid #336699;
+	color: #2d2e2f;
+	font-size: 1.7rem;
+}
+aside.sidebar section.newarticle h3 a {
+	display: block;
+	padding: 24px 0 24px 10px;
+	letter-spacing: 1px;
+}
+aside.sidebar section.newarticle ul {
+	line-height: 1.5;
+}
+aside.sidebar section.newarticle ul li {
+	list-style-type: none;
+	border-bottom: 1px solid #cacaca;
+	padding: 7px 10px 7px 19px;
+	background: url(../img/icon_arrow_01.png) #fdfdfd 7px 12px no-repeat;
+}
+aside.sidebar section.newarticle ul li a {
+	display: block;
+	color: #008ad5;
+}
+.entryContent {
+	line-height: 2.0;
+	padding: 20px;
+}

@@ -42,12 +42,12 @@ the_post();
 											<span class="botton">続きを読む</span>
 					</a>
 	  			</li>	  			
-  			</ul>
-  		</div>  		
-  </div>
-</div>
 <?php
 endwhile;
 endif;
 ?>
+</ul>
+  		</div>  		
+  </div>
+</div>
 <?php get_footer(); ?>
